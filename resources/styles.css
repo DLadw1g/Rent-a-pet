@@ -1,0 +1,131 @@
+*{
+    font-family:"Oxygen", sans-serif;
+    font-size: 16px;
+}
+
+/*navbar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color:seagreen
+
+}
+
+.navbar a{
+    margin:20px 10%;
+    color: #FFFFFF;
+}
+
+/*splash*/
+
+.splash{
+    position: relative;
+    display:flex;
+    margin:0 auto;
+    height:800px;
+    width:auto;
+    background-image:url("./images/Splash.jpg");
+    background-size:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    align-items: center;
+    justify-content:center;    
+}
+
+.splash h1{
+    font-family:"Kablammo", cursive;
+    font-size: 5rem;
+    color:lightcoral;
+    margin: 0;
+}
+
+/*Mission*/
+/*.Mission{
+    
+}*/
+
+.Mission h2{
+    font-size: 24px;
+    justify-content: center;
+    background-color:seagreen;
+    color:white;
+}
+
+/*Animals*/
+.animals{
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    flex-wrap:wrap;
+}
+
+.animals h1{
+    display:block;
+    width: 100%;
+    font-family:"Kablammo", cursive;
+    font-size:24px;
+}
+
+.container{
+    flex: 1 0 500px;
+    height:450px;
+    margin:15px;
+    overflow:hidden;
+}
+
+.container img{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+
+.container h2{
+    text-align: center;
+}
+
+/*Team*/
+.team{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.team h1{
+    display: block;
+    width: 100%;
+    background-color:seagreen;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.person{
+    flex: 1 0 500px;
+    height: 450px;
+    margin:15px;
+    overflow:hidden;
+}
+
+.person img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.person h2{
+    text-align: center;
+    font-weight:bold;
+}
+
+.person h3{
+    text-align: center;
+    font-style:italic;
+}
+
+/*footer*/
+footer{
+    color:#FFFFFF;
+    background-color:seagreen;
+    padding: 10px;
+    text-align:right;
+}
